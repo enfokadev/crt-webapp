@@ -1,0 +1,110 @@
+.contact {
+    background: linear-gradient(to bottom, #1a1a1a, var(--color-dark));
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.contact-info .section-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.info-items {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.whatsapp-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: var(--color-white);
+    transition: var(--transition-smooth);
+}
+
+.whatsapp-box:hover {
+    transform: translateY(-5px);
+    background: rgba(37, 211, 102, 0.1);
+    border-color: #25D366;
+}
+
+.whatsapp-icon {
+    font-size: 2rem;
+    color: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-box h4 {
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.whatsapp-box p {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.info-icon {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+.contact-form-container {
+    padding: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    transition: var(--transition-smooth);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.w-full {
+    width: 100%;
+}
+
+@media (max-width: 868px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}

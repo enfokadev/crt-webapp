@@ -1,0 +1,57 @@
+.navbar-container {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.liquid-glass {
+    width: 100%;
+    max-width: var(--container-max-width);
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: var(--transition-smooth);
+}
+
+.liquid-glass:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.brand-logo {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+.btn-cta-large {
+    padding: 10px 35px;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .liquid-glass {
+        padding: 10px 20px;
+    }
+
+    .brand-logo {
+        height: 30px;
+    }
+
+    .btn-cta-large {
+        padding: 8px 25px;
+        font-size: 0.9rem;
+    }
+}

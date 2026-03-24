@@ -26,7 +26,7 @@ const Services = () => {
             id: 'codi',
             title: 'CODI',
             subtitle: 'Telecomunicaciones',
-            description: 'Líderes en instalación, mantenimiento domiciliario y migraciones tecnológicas (HFC, FTTH, FTTC).',
+            description: 'Expertos en instalación, mantenimiento domiciliario y migraciones tecnológicas (HFC, FTTH, FTTC).',
             color: 'blue',
             features: ['Instalación Domiciliaria', 'Soporte en Campo', 'Migraciones']
         },

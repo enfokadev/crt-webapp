@@ -109,7 +109,24 @@
 
 @media (max-width: 768px) {
     .services-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 20px;
+        -webkit-overflow-scrolling: touch;
+        gap: 20px;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .services-grid::-webkit-scrollbar {
+        display: none; /* Chrome, Safari and Opera */
+    }
+
+    .service-card {
+        min-width: 85%;
+        scroll-snap-align: center;
+        flex: 0 0 auto;
     }
 }
 

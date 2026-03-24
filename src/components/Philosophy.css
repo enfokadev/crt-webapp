@@ -81,4 +81,12 @@
     .philosophy-layout {
         grid-template-columns: 1fr;
     }
+
+    .philosophy-quote {
+        padding: 40px 20px;
+    }
+
+    .philosophy-quote blockquote {
+        font-size: 1.2rem;
+    }
 }

@@ -54,6 +54,11 @@
     .footer-links {
         flex-direction: column;
         gap: 15px;
+        font-size: 0.8rem;
+    }
+    
+    .footer-brand p {
+        word-break: break-word;
     }
 }
 

@@ -107,4 +107,16 @@
         grid-template-columns: 1fr;
         gap: 40px;
     }
+
+    .contact-form-container {
+        padding: 20px;
+    }
+
+    .contact-info .section-title {
+        font-size: 2.2rem;
+    }
+
+    .info-item p {
+        word-break: break-all;
+    }
 }

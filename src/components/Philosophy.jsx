@@ -4,18 +4,18 @@ import './Philosophy.css';
 const Philosophy = () => {
     const pillars = [
         {
-            title: 'Liderazgo',
-            description: 'No es un cargo, es una actitud que se demuestra todos los días en cualquier rol.',
+            title: 'Liderazgo con el ejemplo',
+            description: 'No es un cargo, es una actitud diaria que inspira y transforma desde cualquier rol.',
             icon: '🏆'
         },
         {
             title: 'Pasión por Servir',
-            description: 'Somos aliados estratégicos que resuelven lo que a otros les complica.',
+            description: 'Somos aliados estratégicos que resuelven con agilidad lo que a otros les complica.',
             icon: '❤️'
         },
         {
-            title: 'Mejora Continua',
-            description: 'Innovamos y adoptamos nuevas tecnologías para generar mayor impacto.',
+            title: 'Vanguardia y Mejora',
+            description: 'Innovamos y adoptamos nuevas tecnologías para planificar mejor y generar mayor impacto.',
             icon: '📈'
         }
     ];
@@ -28,7 +28,7 @@ const Philosophy = () => {
                         <h5 className="sub-tag">Nuestra Manera de Ser</h5>
                         <h2 className="section-title">Nuestra Filosofía</h2>
                         <p className="philosophy-intro">
-                            En CentraRecursos Técnicos, trabajar bien es generar un impacto real. Nos tomamos cada tarea como si fuera propia, honrando la confianza de nuestros clientes.
+                            En Centrarecursos Técnicos, trabajar bien trasciende el cumplimiento; buscamos generar un impacto real en cada acción. Representamos a cada marca como propia, honrando la confianza de nuestros clientes a través de la excelencia.
                         </p>
                         <div className="pillars-list">
                             {pillars.map(pillar => (

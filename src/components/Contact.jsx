@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className="contact-grid">
                     <div className="contact-info">
                         <h2 className="section-title">Contáctanos</h2>
-                        <p>Estamos listos para potenciar su empresa con nuestras soluciones técnicas y operativas.</p>
+                        <p>Estamos listos para transformar tus desafíos en soluciones operativas de alto impacto. Conectemos para potenciar tu empresa con vanguardia tecnológica y el mejor talento de Guatemala.</p>
 
                         <div className="info-items">
                             <div className="info-item">

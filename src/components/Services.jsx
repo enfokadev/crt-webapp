@@ -26,25 +26,25 @@ const Services = () => {
             id: 'codi',
             title: 'CODI',
             subtitle: 'Telecomunicaciones',
-            description: 'Expertos en instalación, mantenimiento domiciliario y migraciones tecnológicas (HFC, FTTH, FTTC).',
+            description: 'Brindamos soporte técnico especializado con vanguardia tecnológica, operando con exclusividad para garantizar los más altos estándares de cumplimiento. .',
             color: 'blue',
-            features: ['Instalación Domiciliaria', 'Soporte en Campo', 'Migraciones']
+            features: ['Instalación y mantenimiento domiciliario.', 'Atención de averías y soporte técnico.', 'Tecnologías que atendemos HFC, FWA, FTTH y DTH.']
         },
         {
             id: 'activa',
             title: 'ACTIVA',
             subtitle: 'Trade Marketing',
-            description: 'Activación comercial y ejecución en puntos de venta para potenciar la visibilidad de su marca.',
+            description: 'Transformamos la presencia de tu marca en resultados reales mediante una ejecución estratégica en el punto de venta. .',
             color: 'orange',
-            features: ['Activación PDV', 'Auditorías', 'Equipos de Impulso']
+            features: ['Activación y ejecución PDV', '  Implementación y control de materiales POP', 'Auditorías de visibilidad y equipos de impulso']
         },
         {
             id: 'capta',
             title: 'CAPTA',
             subtitle: 'Talento Humano',
-            description: 'Gestión integral de talento, reclutamiento masivo y outsourcing especializado.',
+            description: 'Conectamos tu empresa con el mejor talento humano calificado, logrando contrataciones masivas en toda Guatemala. .',
             color: 'navy',
-            features: ['Reclutamiento', 'Tercerización', 'Administración Planilla']
+            features: ['Reclutamiento masivo y especializado', 'Manejo de planilla y tercerización de personal', 'Contratación flexible bajo demanda']
         }
     ];
 
